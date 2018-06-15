@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+}
+
+
+.colorNames {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.nomesCores {
+  height: 20px;
+}
+
+.color {
+  text-align: left;
+  text-transform: capitalize;
+  padding: 10px;
+  color: #fff;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-flow: column wrap;
+}
+

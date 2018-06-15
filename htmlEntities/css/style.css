@@ -1,0 +1,16 @@
+body {
+  width: 500px;
+  margin: auto;
+}
+
+.tbl {
+  padding: 10px;
+  border: 1px solid rgba(97, 97, 97, 0.178);
+  width: 100px;
+  height: 100px;
+}
+
+.tabela {
+  display: flex;
+  flex-flow: row wrap;
+}

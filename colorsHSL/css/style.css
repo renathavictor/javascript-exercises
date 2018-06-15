@@ -1,0 +1,14 @@
+.tabelaCores {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  width: 10rem;
+  height: 60px;
+  margin: 0.2rem;
+}

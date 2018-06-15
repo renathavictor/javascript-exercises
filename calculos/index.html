@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Calculadora Web</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <div class="conteudo">
+      <div class="result">
+          <input type="text" name="resultado" id="resultado" readonly>
+      </div>
+      <div class="itens">
+        <button class="tecla opera">C</button>
+        <button class="tecla opera" data-action="deleta">DEL</button>
+        <button class="tecla opera" data-action="divide" id="divide">&divide;</button>
+        <button class="tecla opera" data-action="multiplica" id="multiplica">&times;</button>
+      </div>
+      <div class="itens">
+        <button class="tecla num">7</button>
+        <button class="tecla num">8</button>
+        <button class="tecla num">9</button>
+        <button class="tecla opera" data-action="diminui" id="diminui">&minus;</button>
+      </div>
+      <div class="itens">
+        <button class="tecla num">4</button>
+        <button class="tecla num">5</button>
+        <button class="tecla num">6</button>
+        <button class="tecla opera" data-action="soma" id="soma">&plus;</button>
+      </div>
+      <div class="itens">
+        <button class="tecla num">1</button>
+        <button class="tecla num">2</button>
+        <button class="tecla num">3</button>
+        <button class="tecla opera" data-action="raiz" id="raiz">&radic;</button>
+      </div>
+      <div class="itens">
+        <button class="tecla num zero">0</button>
+        <button class="tecla num">.</button>
+        <button class="tecla igual" data-action="igual">=</button>
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/main.js"></script>    
+</body>
+</html>
