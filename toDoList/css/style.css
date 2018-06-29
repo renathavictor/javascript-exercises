@@ -1,0 +1,40 @@
+
+
+.conteudo {
+  display: flex;
+  flex-flow: column;
+  width: 500px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+input[type=text] {
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  background-color: grey;
+  border: none;
+  border-radius: 7px;
+}
+
+li {
+  padding: 10px;
+  border-bottom: 1px solid rgba(156, 156, 156, 0.541);
+  justify-content: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: flex;
+  justify-content: space-between;
+}

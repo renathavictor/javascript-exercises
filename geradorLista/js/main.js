@@ -1,21 +1,25 @@
-const input = document.querySelector('input')
-const button = document.querySelector('button')
+const valor = document.querySelector('input[type=text]')
+const btn = document.querySelector('button')
 const ul = document.querySelector('ul')
 
-function gerarLista() {
-  const num = input.value
-  for (let n = 1; n <= num; n++) {
-    ul.insertAdjacentHTML('beforeend', `<li>Item ${n}</li>`)
+
+function criarLista() {
+  let num = valor.value 
+  for (let i = 1; i <= num; i++) {
+    ul.insertAdjacentHTML('beforeend', `<li>Item ${i}</li>`)
   }
-  input.value = ''
+  valor.value = ''
 }
 
-button.addEventListener('click', function() {
-  gerarLista()
+btn.addEventListener('click', function() {
+  criarLista()
 })
 
 document.addEventListener('keyup', function(event) {
   if (event.key == 'Enter') {
-    gerarLista()
+    ul.innerHTML = ''
+    criarLista()
+  } else if (event.key == 'Escape') {
+    ul.innerHTML = ''
   }
 })

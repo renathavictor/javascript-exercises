@@ -1,0 +1,13 @@
+.out-box {
+  border: 1px solid rgb(160, 159, 159);
+}
+
+.in-box {
+  border: 1px solid rgb(160, 159, 159);
+  padding: 20px;
+}
+
+textarea[name=texto] {
+  width: 700px;
+  height: 200px;
+}

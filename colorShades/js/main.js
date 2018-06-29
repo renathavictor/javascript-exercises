@@ -206,7 +206,7 @@ for (let key in colors) {
   colorShades.insertAdjacentHTML('beforeend', nomes)
   for (let info of colors[key]) {
     const cores = 
-    ` <div class= "color" style="background: ${info.color}">
+    ` <div class= "color" style="background-color: ${info.color}">
         <div>${info.name}</div>
         <div>${info.color}</div>
       </div>`
