@@ -17,6 +17,9 @@ function tratarTexto() {
   marcado.firstChild.lastChild.onclick = function () {
     this.parentNode.remove()
   }
+  marcado.firstChild.onclick = function() {
+    this.style.cssText = 'text-decoration: line-through'
+  }
   pegarTexto.value = '' 
   checkbox.checked = false 
 }
