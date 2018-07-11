@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px;
+  font-size: 50px;
+}
+
+#posts {
+  width: 150vh;
+  margin: auto;
+}
+
+.msg {
+  display: grid;
+  grid-template-areas:
+    "id titulo"
+    "id post";
+  padding: 30px;
+  margin: 20px;
+}
+
+span {
+  grid-area: id;
+  font-size: 50px;
+  align-items: center;
+}
+
+h2 {
+  grid-area: titulo;
+}
+
+p {
+  grid-area: post;
+}
+
+.blue {
+  color: #1565c0;
+}

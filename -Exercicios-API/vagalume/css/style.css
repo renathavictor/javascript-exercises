@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+  margin: auto;
+  padding: 15px;
+}
+
+.artists {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
