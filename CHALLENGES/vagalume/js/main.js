@@ -15,4 +15,5 @@ fetch(`https://www.vagalume.com.br/${art}/index.js`)
   .then(json => {
     let texto = `<img src="${json.pic_small}" alt="${json.desc}"><div>${json}</div>`
     artistsHTML.insertAdjacentHTML('beforeend', texto)
+    console.log(json.desc)
   })
