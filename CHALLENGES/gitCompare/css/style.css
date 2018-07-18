@@ -1,0 +1,24 @@
+body {
+  width: 900px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #008cba;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+p.repos-name a {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.project, .commy, .code {
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+} 
